@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 # ─── Gemini AI setup ──────────────────────────────────────────────────────────
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.0-flash",
     system_instruction=(
         "Tu ek helpful AI assistant hai. "
         "User ke messages ka short, friendly aur useful reply de. "
